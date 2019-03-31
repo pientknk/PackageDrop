@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1005919849265222}
+  m_IsPrefabParent: 1
+--- !u!1 &1005919849265222
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4816573979424034}
+  - component: {fileID: 114181809960414324}
+  - component: {fileID: 114504105569847330}
+  - component: {fileID: 114597976346291050}
+  m_Layer: 0
+  m_Name: Level Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4816573979424034
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1005919849265222}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -44.01029, y: -21.012684, z: 10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114181809960414324
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1005919849265222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 191e0c3173fa74daa890f69e441222ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvas: {fileID: 0}
+  theLevelObjects: {fileID: 0}
+  levelCanvas: {fileID: 0}
+  objectPanel: {fileID: 0}
+  summaryCanvas: {fileID: 0}
+  allBoughtObjects: []
+  selectedObject: {fileID: 0}
+  starsEarned: 0
+  moneyFor1Star: 2000
+  packagesFor1Star: 30
+  maxObjectsUsedFor1Star: 20
+  levelIndex: 0
+  startingMoney: 5000
+  packageWorth: 100
+--- !u!114 &114504105569847330
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1005919849265222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38150eb99bfe24adcbe1df7d7f328c09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114597976346291050
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1005919849265222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7414cba1aa0a4ec69f91074bec8760c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelList: []
+  button: {fileID: 0}
+  spacer: {fileID: 0}

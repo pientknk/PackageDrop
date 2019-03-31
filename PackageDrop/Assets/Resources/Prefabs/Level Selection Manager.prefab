@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1462507807834414}
+  m_IsPrefabParent: 1
+--- !u!1 &1462507807834414
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4150640430365950}
+  - component: {fileID: 114077374176647616}
+  - component: {fileID: 114929072380860338}
+  m_Layer: 0
+  m_Name: Level Selection Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4150640430365950
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1462507807834414}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -191.22516, y: 50.536007, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114077374176647616
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1462507807834414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7414cba1aa0a4ec69f91074bec8760c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelList:
+  - levelText: Level 1
+    unlocked: 1
+    isInteractable: 1
+    thumbnail: {fileID: 21300000, guid: 5be1e52327b554b618d144b28c5cd315, type: 3}
+  - levelText: Level 2
+    unlocked: 0
+    isInteractable: 0
+    thumbnail: {fileID: 21300000, guid: 6ccde919e8569435e9596acc48896b76, type: 3}
+  - levelText: Level 3
+    unlocked: 0
+    isInteractable: 0
+    thumbnail: {fileID: 21300000, guid: ba3335df85e284f33afa88f6918b57df, type: 3}
+  - levelText: Level 4
+    unlocked: 0
+    isInteractable: 0
+    thumbnail: {fileID: 21300000, guid: 31ac5c27f5f9a4242b41971a6b1337a0, type: 3}
+  - levelText: Level 5
+    unlocked: 0
+    isInteractable: 0
+    thumbnail: {fileID: 21300000, guid: 4d2258516a08243c49ea36d1c7300405, type: 3}
+  - levelText: Level 6
+    unlocked: 0
+    isInteractable: 0
+    thumbnail: {fileID: 21300000, guid: 9552dc18b33624cd992641ad91285547, type: 3}
+  - levelText: Level 7
+    unlocked: 0
+    isInteractable: 0
+    thumbnail: {fileID: 21300000, guid: 4ffd8b066ceaa4dbd934321d4588d574, type: 3}
+  - levelText: Level 8
+    unlocked: 0
+    isInteractable: 0
+    thumbnail: {fileID: 21300000, guid: 689dd259bd592422bbf0732dd414ed68, type: 3}
+  - levelText: Level 9
+    unlocked: 0
+    isInteractable: 0
+    thumbnail: {fileID: 21300000, guid: 45709554275244574881f61edc9b47bc, type: 3}
+  - levelText: Level 10
+    unlocked: 0
+    isInteractable: 0
+    thumbnail: {fileID: 21300000, guid: 2d6d10f944c83410894f39508590d8ce, type: 3}
+  - levelText: Level 11
+    unlocked: 0
+    isInteractable: 0
+    thumbnail: {fileID: 21300000, guid: 4d28477d292d54316a14843c6e0ddb02, type: 3}
+  - levelText: Level 12
+    unlocked: 0
+    isInteractable: 0
+    thumbnail: {fileID: 21300000, guid: 0aa4b9763d13a4810b4af34163b3cbee, type: 3}
+  - levelText: Level 13
+    unlocked: 0
+    isInteractable: 0
+    thumbnail: {fileID: 21300000, guid: 3977722c9ca3b41cabcb82c579270fef, type: 3}
+  - levelText: Level 14
+    unlocked: 0
+    isInteractable: 0
+    thumbnail: {fileID: 21300000, guid: 8268c019688d240e985343e664485ca9, type: 3}
+  - levelText: Level 15
+    unlocked: 0
+    isInteractable: 0
+    thumbnail: {fileID: 21300000, guid: a1d1619ea213b4687863afd2411a21b7, type: 3}
+  button: {fileID: 1189554032339390, guid: bfba78ab8e3fb43f1b1a7c2dace8c29e, type: 2}
+  spacer: {fileID: 0}
+--- !u!114 &114929072380860338
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1462507807834414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38150eb99bfe24adcbe1df7d7f328c09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
